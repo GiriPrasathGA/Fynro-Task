@@ -124,22 +124,34 @@ body {
     background: rgba(247, 249, 255, 1);
     height: 795px;
 }
-.curveimg{
-    
+
+.curveimg {
+
     padding-left: 205px;
 }
-.curve{
+
+.curve {
     width: 230px;
 }
+
+.lines {
+    width: 230px;
+    padding-top: 160px;
+    padding-left: 160px;
+}
+
+.des {
+    display: flex;
+}
+
 .container {
+
     gap: 10px;
     margin-top: 200px;
-    margin-left: 150px;
     display: grid;
     grid-template-rows: px px px px;
     background: rgba(247, 249, 255, 1);
     width: 500px;
-    margin-left: 250px;
 }
 
 .unlock {
@@ -151,19 +163,22 @@ body {
 }
 
 .des {
+    display: flex;
     background: rgba(247, 249, 255, 1);
-    margin-bottom: 20px;
-    font-weight: 500;
+    padding-bottom: px;
+    font-weight: 400;
     color: rgba(18, 18, 20, 1);
-    ;
+    font-size: 16px;
 
 }
 
 .features {
-    margin-top: 5px;
+    display: flex;
+    height: 40px;
+    margin-top: 50px;
     font-size: 18px;
     color: rgba(85, 85, 85, 1);
-    
+
 }
 
 .ExploreAdvisors {
@@ -188,7 +203,7 @@ body {
 }
 
 .Explore-btn {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .col {
@@ -213,6 +228,17 @@ body {
 .watch {
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.watch h2 {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+
 }
 
 .youtube-video-container {
@@ -273,11 +299,20 @@ body {
 }
 
 .services h2 {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
     font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+
 }
 
+.services-container-c {
+    margin-top: 50px;
+}
 
 .services-container {
     display: grid;
@@ -302,9 +337,12 @@ body {
 
 
 .service h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
 }
 
 
@@ -326,9 +364,28 @@ h2 {
     margin-bottom: 20px;
 }
 
+.page4 {
+    height: 700px;
+    background-color: #008545;
+
+}
+
+.advisors-section h2 {
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    margin-top: 100px;
+
+}
 
 .advisors-section {
     max-width: 1000px;
+    padding-bottom: 50px;
     margin: 40px auto;
 }
 
@@ -440,6 +497,7 @@ p {
 }
 
 
+.page5 {}
 
 .steps-section {
     max-width: 1100px;
@@ -448,9 +506,13 @@ p {
 }
 
 .steps-section h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
 }
 
 
@@ -516,9 +578,13 @@ p {
 }
 
 .testimonials h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
 }
 
 
@@ -612,9 +678,14 @@ p {
 }
 
 .deals h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+
 }
 
 .deals-container {
