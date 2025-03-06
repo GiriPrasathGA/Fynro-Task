@@ -124,7 +124,13 @@ body {
     background: rgba(247, 249, 255, 1);
     height: 795px;
 }
-
+.curveimg{
+    
+    padding-left: 205px;
+}
+.curve{
+    width: 230px;
+}
 .container {
     gap: 10px;
     margin-top: 200px;
@@ -138,20 +144,26 @@ body {
 
 .unlock {
     font-size: 40px;
-    width: 545;
-    height: 145;
+    margin-bottom: 0;
+    width: 500px;
+    height: 130px;
     background: rgba(247, 249, 255, 1);
 }
 
 .des {
     background: rgba(247, 249, 255, 1);
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: rgba(18, 18, 20, 1);
+    ;
+
 }
 
 .features {
     margin-top: 5px;
     font-size: 18px;
     color: rgba(85, 85, 85, 1);
-    ;
+    
 }
 
 .ExploreAdvisors {
