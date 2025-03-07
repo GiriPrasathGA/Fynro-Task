@@ -429,6 +429,15 @@ h2 {
     font-size: 19px;
 }
 
+.name-rating h6 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
 .rating {
     background: linear-gradient(90deg, #008545 0%, #058A4A 100%);
 
@@ -455,6 +464,7 @@ p {
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 10px;
+    width: 275px;
 }
 
 
@@ -499,19 +509,16 @@ p {
 
 .page5 {}
 
-.steps-section {
-    max-width: 1100px;
-    margin: 50px auto;
+.get-connect-page {
     text-align: center;
 }
 
-.steps-section h2 {
-    font-family: Gilroy-Bold;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-transform: capitalize;
+.steps-section {
+
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+    margin-top: 5px;
 
 }
 
@@ -531,18 +538,46 @@ p {
     width: 50%;
 }
 
+.telegram {
+    width: 50px;
+}
+
 .step {
     margin-bottom: 20px;
 }
 
+.tele-get-connect {
+    margin-left: 165px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 250px 800px;
+}
+
+.get-connected {
+    padding-top: 80px;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
 .step-tag {
     display: inline-block;
-    background: #c1f0d5;
+    background: rgba(203, 242, 224, 1);
     color: #157347;
     padding: 6px 12px;
     border-radius: 20px;
+
+    font-family: Poppins;
+    font-weight: 500;
     font-size: 12px;
-    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
 }
 
 h3 {
@@ -606,6 +641,7 @@ p {
 
 .testimonials-container {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
